@@ -6,7 +6,8 @@ Here are some ideas to get you started:
 -->
 
 <h1 align="center">Hi 👋, I'm Olaoluwa Soladoye</h1>
-<h3 align="center">Human before anything else!</h3>
+<h3 align="center"><em>Human before anything else!</em></h3>
+
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=crappypapa" alt="crappypapa" /></a> </p>
 
@@ -18,7 +19,7 @@ Here are some ideas to get you started:
 
 - 👯 I’m looking to collaborate on **any project that helps fulfill humankind's enormous potential.**
 
-- 💬 Ask me about **Technology, Sports, Music**
+- 💬 Ask me about **Technology, Sports, and Music.**
 
 - 📫 Email me at **devsolaoluwa@gmail.com**
 
@@ -44,6 +45,8 @@ Here are some ideas to get you started:
 <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
 <a href="https://www.ruby-lang.org/en/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a>
 </p>
+
+<h3 align="left">GitHub Statistics:</h3>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=crappypapa&show_icons=true&locale=en" alt="crappypapa" /></p>
 
