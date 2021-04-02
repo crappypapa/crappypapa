@@ -51,3 +51,5 @@ Here are some ideas to get you started:
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=crappypapa&show_icons=true&locale=en" alt="crappypapa" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=crappypapa&" alt="crappypapa" /></p>
+
+<!--<p> <img align="center" color="white" src="https://activity-graph.herokuapp.com/graph?username=crappypapa" alt="crappypapa"/></p>-->
