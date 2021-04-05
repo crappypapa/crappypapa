@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 
 - 🔭 I’m working daily on **honing my Software development and Collaboration skills.**
 
-- 🌱 I’m currently learning **Rails, Blender and Flutter**
+- 🌱 I’m currently learning **Ruby,RoR and Angular**
 
 - 👯 I’m looking to collaborate on **any project that helps fulfill humankind's enormous potential.**
 
