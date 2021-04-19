@@ -21,7 +21,7 @@ body{
   font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
-  padding: 20px;
+  //padding: 20px;
 }
 
 header{
@@ -29,14 +29,21 @@ header{
   background-image:linear-gradient(to right bottom,(#636534c4),(#cf8b5d5d) ) ,
   url(../assets/img/header.webp);
   background-size: cover;
-  //background-position: top;
+  background-position: top;
   //clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  .heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-10%,-80%);
+  }
   .heading-primary{
     font-family: $raleway;
     text-transform: uppercase;
     color: #32312F;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     font-weight: 700;
+    font-size: 45px;
   }
   .heading-secondary{
     color:#D3D3DD; //#6C6B6B;
