@@ -1,7 +1,7 @@
 
 header{
   height: 95vh;
-  background-image:linear-gradient(to right bottom,(#636534c4),(#cf8b5d5d) ) ,
+  background-image:linear-gradient(to right bottom,($color-sub),($color-main)) ,
   url(/assets/img/header.webp);
   background-size: cover;
   background-position: top;
@@ -16,7 +16,7 @@ header{
       font-family: $raleway;
       text-transform: uppercase;
       color: #32312F;
-      letter-spacing: 1rem;
+      letter-spacing: .75rem;
       font-weight: 700;
       font-size: 4.5rem;
     }
