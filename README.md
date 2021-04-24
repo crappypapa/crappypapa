@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 
 - 📫 Email me at **devsolaoluwa@gmail.com**
 
-- ⚡ Fun fact **I love video games and anime.**
+- ⚡ Fun fact: **I love video games and anime.**
                 
                 
 <h3 align="left">Connect with me:</h3>

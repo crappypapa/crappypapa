@@ -1,28 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;0,900;1,400&display=swap");
-/*
-Variables
-*/
-/*
-RESET
-*/
 * {
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-size: 62.5%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
 }
 
 header {
   height: 95vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#636534c4), to(#cf8b5d5d)), url(../assets/img/header.webp);
-  background-image: linear-gradient(to right bottom, #636534c4, #cf8b5d5d), url(../assets/img/header.webp);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#636534c4), to(#cf8b5d5d)), url(/assets/img/header.webp);
+  background-image: linear-gradient(to right bottom, #636534c4, #cf8b5d5d), url(/assets/img/header.webp);
   background-size: cover;
   background-position: top;
 }
@@ -35,17 +32,17 @@ header .heading {
           transform: translate(-10%, -80%);
 }
 
-header .heading-primary {
+header .heading__primary {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #32312F;
-  letter-spacing: 10px;
+  letter-spacing: 1rem;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 4.5rem;
 }
 
-header .heading-secondary {
+header .heading__secondary {
   color: #D3D3DD;
-  letter-spacing: 5px;
+  letter-spacing: .5rem;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=main.css.map */
