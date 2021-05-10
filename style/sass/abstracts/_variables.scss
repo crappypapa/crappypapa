@@ -5,7 +5,13 @@ $sans: "Open Sans", sans-serif;
 
 //Colors
 
-$color-main:#cf8b5d5d;
-$color-sub:#636534c4;
-$bg-grey:#d7d7d7d7;
+// $color-main:#cf8b5d5d;
+// $color-sub:#636534c4;
+// $bg-grey:#d7d7d7d7;
 
+$bg-main: hsl(218, 28%, 13%);
+$bg-sub:  hsl(217, 28%, 15%);
+$bg-footer: hsl(216, 53%, 9%);
+$bg-lit: hsl(219, 30%, 18%);
+$white: hsl(0, 0%, 100%);
+$cyan: hsl(176, 68%, 64%);
