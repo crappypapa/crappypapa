@@ -1,0 +1,8 @@
+.u-header-main{
+  font-family: $raleway;
+  text-transform: uppercase;
+  background:linear-gradient(to right,($white),($cyan),($white));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent ;// #32312F;
+}

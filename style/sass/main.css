@@ -15,14 +15,23 @@ body {
   padding: 0 1rem;
   font-weight: 400;
   line-height: 1.7;
+  color: white;
+}
+
+.u-header-main {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(#65e2d9), to(white));
+  background: linear-gradient(to right, white, #65e2d9, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 header {
-  height: 95vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#636534c4), to(#cf8b5d5d)), url(/assets/img/header.webp);
-  background-image: linear-gradient(to bottom, #636534c4, #cf8b5d5d), url(/assets/img/header.webp);
-  background-size: cover;
-  background-position: top;
+  height: 90vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#181f2a), to(#202a3c));
+  background-image: linear-gradient(to top, #181f2a, #202a3c);
 }
 
 header .heading {
@@ -34,9 +43,6 @@ header .heading {
 }
 
 header .heading__primary {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  color: #32312F;
   letter-spacing: .75rem;
   font-weight: 700;
   font-size: 4.5rem;
@@ -47,8 +53,81 @@ header .heading__secondary {
   letter-spacing: .5rem;
 }
 
-.section-about {
-  background-color: #cf8b5d70;
-  padding: 25rem 0;
+.section__about {
+  background-color: #181f2a;
+  padding: 10rem 0;
+  height: 70vh;
+}
+
+.section__about h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: .5rem;
+  font-weight: 700;
+}
+
+.section__about-skills {
+  position: relative;
+  height: 30rem;
+}
+
+.section__about .card {
+  position: absolute;
+  -webkit-box-shadow: 0 0.25rem 0.5rem rgba(101, 226, 217, 0.4);
+          box-shadow: 0 0.25rem 0.5rem rgba(101, 226, 217, 0.4);
+  border-radius: .875rem;
+  width: 55%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 1.875rem;
+  z-index: 10;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.section__about .card h4 {
+  text-transform: uppercase;
+  font-size: medium;
+  color: #65e2d9;
+}
+
+.section__about .card h6 {
+  font-size: small;
+}
+
+.section__about .card-1 {
+  background-color: #202a3c;
+  left: 0;
+  top: 0;
+}
+
+.section__about .card-2 {
+  background-color: #1c2431;
+  right: 3rem;
+  top: -2rem;
+}
+
+.section__about .card-3 {
+  background-color: #1c2431;
+  left: 2rem;
+  bottom: 0;
+}
+
+.section__about .card-4 {
+  background-color: #202a3c;
+  right: 6rem;
+  bottom: 1.5rem;
+}
+
+.section__about .card:hover {
+  -webkit-transform: scale(1.05) translateY(-1rem);
+          transform: scale(1.05) translateY(-1rem);
+  z-index: 20;
+}
+
+.section__about:hover .card:not(:hover) {
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
 }
 /*# sourceMappingURL=main.css.map */
