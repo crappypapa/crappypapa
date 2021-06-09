@@ -1,0 +1,19 @@
+.skills-box {
+    background-color: rgba($cyan, 0);
+    font-size: 1.25rem;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 .1rem .25rem rgba($white, .8);
+    transition: transform .3s;
+    i {
+        display: inline-block;
+        font-size: 2.5rem;
+        color : $cyan;
+        margin-bottom: 1.5rem;
+    }
+
+    &:hover {
+        transform: translateY(1.5rem) scale(1.05);
+    }
+}
