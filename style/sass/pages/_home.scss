@@ -1,12 +1,14 @@
 .section__about{
-  background-color: $bg-main;
-  padding: 10rem 0;
-  height: 70vh;
+  //background-color: $bg-main;
+  background-image:linear-gradient(to top,($bg-lit),($bg-main));
+  padding: 7rem 0;
+  height: 80vh;
   h2{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 4rem;
     letter-spacing: .5rem;
-    font-weight: 700;
+    font-weight: 100;
+    margin-bottom: 10rem;
   }
   &-skills{
     position: relative;
@@ -59,8 +61,21 @@
   //     //box-shadow: 0 1rem .5rem rgba($cyan,.6);
   //   }
   // }
- &:hover .card:not(:hover) {
-   transform: scale(.85);
- }
+  //  &:hover .card:not(:hover) {
+  //    transform: scale(.85);
+  //  }
  
+}
+.section__project {
+  //background-color: $bg-main;
+  background-image:linear-gradient(to top,($bg-main),($bg-lit));
+  padding: 7rem 0;
+  height: 100vh;
+  h2{
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    font-weight: 100;
+    margin-bottom: 10rem;
+  }
 }
