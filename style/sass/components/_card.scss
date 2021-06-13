@@ -2,12 +2,15 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
     background-color: rgba($cyan, 0);
-    height: 50rem;
+    height: 60rem;
     position: relative;
-   
+
+    ul{
+        list-style-type: none;
+    }
 
     &__side {
-        height: 50rem;
+        height: 60rem;
         font-size: 1.25rem;
         padding: 1.5rem;
         text-align: center;
@@ -20,20 +23,63 @@
         width: 100%;
         backface-visibility: hidden;
 
-        // &--front {
-        //     background-color: rgba($cyan, 0);
-
-        // }
-
-        &--details {
-            background-image:linear-gradient(to right bottom,($bg-main),($cyan),($white));
-            transform: rotateY(180deg);
+        &--front {
+            .tools {
+                position: absolute;
+                bottom: 5%;
+                left: 50%;
+                transform:translate(-50%,-5%);
+                ul{
+                    li{
+                        margin: 0 auto;
+                    }
+                }
+                
+            }
 
         }
+
+        &--details {
+            background-image:linear-gradient(to right bottom,rgba($white, 0.5),rgba($cyan, 0.5),($bg-main));
+            transform: rotateY(180deg);
+            line-height: 2.5rem;
+            font-size: 1.5rem;
+            
+            ul{
+                
+                width: 90%;
+                margin: 0 auto;
+
+                li{
+                    padding: 1rem;
+                    color: $bg-main;
+
+                    &:not(:last-child) {
+                        border-bottom: 1px dotted rgba($bg-sub, .8);
+                    }
+                }
+            }
+        }
+       
+    }
+    &__details {
+
+        &--heading {
+            color: $bg-main;
+            font-size: 3rem;
+            display: none;
+        }
+        &--paragraph {
+            padding: 1rem;
+            color: $bg-main;
+            line-height: 2.5rem;
+            font-size: 1.5rem;
+            border-bottom: 1px dotted rgba($bg-sub, .8);
+        }      
     }
 
     &:hover &__side--front {
-        transform: rotateY(180deg);
+        transform: rotateY(-180deg);
     }
 
     &:hover &__side--details {
