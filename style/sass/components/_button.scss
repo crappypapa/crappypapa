@@ -19,6 +19,7 @@
     &:active {
         transform: translateY(-1px);
         box-shadow: 0 .1rem .25rem rgba($white, .8);
+        text-decoration: none;
     
     }
 }
@@ -30,5 +31,5 @@
 .button{
     position: absolute;
     bottom: 10%;
-    transform: translate(12%, -10%);
+    transform: translate(12%, -10%); 
 }

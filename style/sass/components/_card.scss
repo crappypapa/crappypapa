@@ -23,6 +23,12 @@
         width: 100%;
         backface-visibility: hidden;
 
+        &--img {
+            position: absolute;
+            bottom: 30%;
+            transform:translate(-2%);
+        }
+        
         &--front {
             .tools {
                 position: absolute;
@@ -32,6 +38,7 @@
                 ul{
                     li{
                         margin: 0 auto;
+                        padding: 0 2rem
                     }
                 }
                 
