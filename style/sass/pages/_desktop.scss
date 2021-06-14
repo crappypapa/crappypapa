@@ -1,0 +1,91 @@
+.section__about{
+  //background-color: $bg-main;
+  background-image:linear-gradient(to top,($bg-lit),($bg-main));
+  padding: 7rem 7rem;
+  //height: 80vh;
+  h2{
+    text-align: center;
+    font-size: 4.6rem;
+    width:fit-content;
+    margin: 0 auto;
+    letter-spacing: .5rem;
+    font-weight: 100;
+    margin-bottom: 10rem;
+    border-bottom: 1px dotted $cyan;
+  }
+  &-skills{
+    position: relative;
+    height: 30rem;
+  }
+  &--resume{
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    
+    li {
+      padding: 0 2rem;
+
+      i {
+        font-size: 4rem;
+        color : $white;
+        padding-bottom: 1.5rem;
+      }
+      figcaption {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+.section__project {
+  //background-color: $bg-main;
+  background-image:linear-gradient(to top,($bg-main),($bg-lit));
+  padding: 15rem 7rem;
+  //height: 100vh;
+  h2{
+    text-align: center;
+    font-size: 4.6rem;
+    letter-spacing: .5rem;
+    font-weight: 100;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    border-bottom: 1px dotted $cyan;
+  }
+}
+.section__contact {
+  background-image:linear-gradient(to top,($bg-lit),($bg-main));
+  //height: 35vh;
+  padding: 6rem 0 0 0;
+
+  h2{
+    background-color: $bg-main;
+    text-align: center;
+    font-size: 4.6rem;
+    margin: 0 auto;
+    width: fit-content;
+    border-bottom: 1px dotted $cyan;
+    letter-spacing: .5rem;
+    font-weight: 100;
+    margin-bottom: 5rem;
+  }
+
+  &--list{
+    list-style: none;
+    width: 30%;
+    margin: 0 auto;
+
+    li{
+
+      figcaption {
+        font-size: 1.3rem;
+        display: none;
+      }
+
+      i {
+        font-size: 4rem;
+        color : $white;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+} 
