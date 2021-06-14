@@ -12,8 +12,11 @@
 @import "components/button";
 
 @import "layout/header";
+@import "layout/footer";
 
-@import "pages/home";
+@import "pages/desktop";
+@import "pages/mobile";
+@import "pages/tablet";
 
   // &:not(:last-child) {
   //   margin-bottom: 6rem;

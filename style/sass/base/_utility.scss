@@ -6,3 +6,54 @@
   -webkit-background-clip: text;
   color: transparent ;// #32312F;
 }
+
+// .card{
+  //   position: absolute;
+  //   //border:1px solid red;
+  //   box-shadow: 0 .25rem 0.5rem rgba($cyan,.4);
+  //   border-radius: .875rem;
+  //   width: 55%;
+  //   height:min-content;
+  //   padding: 1.875rem;
+  //   z-index: 10;
+  //   transition: all .3s;
+  //   //outline-offset: .5rem;
+
+  //   h4{
+  //     text-transform: uppercase;
+  //     font-size: medium;
+  //     color: $cyan;
+  //   }
+  //   h6{
+  //     font-size: small;
+  //   }
+  //   &-1{
+  //     background-color: $bg-lit;
+  //     left : 0;
+  //     top: 0;
+  //   }
+  //   &-2{
+  //     background-color: $bg-sub;
+  //     right : 3rem;
+  //     top: -2rem;
+  //   }
+  //   &-3{
+  //     background-color: $bg-sub;
+  //     left : 2rem;
+  //     bottom: 0;
+  //   }
+  //   &-4{
+  //     background-color: $bg-lit;
+  //     right : 6rem;
+  //     bottom: 1.5rem;
+  //   }
+  //   &:hover{
+  //     transform: scale(1.05) translateY(-1rem);
+  //     z-index: 20;
+  //     //outline: .25rem solid $cyan;
+  //     //box-shadow: 0 1rem .5rem rgba($cyan,.6);
+  //   }
+  // }
+  //  &:hover .card:not(:hover) {
+  //    transform: scale(.85);
+  //  }
