@@ -48,11 +48,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.box:hover {
-  -webkit-transform: translateY(1.5rem) scale(1.05);
-          transform: translateY(1.5rem) scale(1.05);
-}
-
 .card {
   -webkit-perspective: 150rem;
           perspective: 150rem;
@@ -310,6 +305,10 @@ footer p {
   .button {
     -webkit-transform: translate(12%, -10%);
             transform: translate(12%, -10%);
+  }
+  .box:hover {
+    -webkit-transform: translateY(1.5rem) scale(1.05);
+            transform: translateY(1.5rem) scale(1.05);
   }
 }
 

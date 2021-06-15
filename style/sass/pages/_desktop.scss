@@ -132,4 +132,10 @@
     // bottom: 10%;
     transform: translate(12%, -10%);
   }
+
+  .box {
+    &:hover {
+      transform: translateY(1.5rem) scale(1.05);
+    }
+  }
 }
