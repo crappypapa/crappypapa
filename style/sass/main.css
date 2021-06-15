@@ -188,6 +188,8 @@ body {
 .button {
   position: absolute;
   bottom: 10%;
+  -webkit-transform: translate(7%, 0);
+          transform: translate(7%, 0);
 }
 
 footer {
@@ -304,6 +306,10 @@ footer p {
     font-size: 4rem;
     color: white;
     margin-bottom: 1.5rem;
+  }
+  .button {
+    -webkit-transform: translate(12%, -10%);
+            transform: translate(12%, -10%);
   }
 }
 
