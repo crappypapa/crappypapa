@@ -12,7 +12,6 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  padding: 0 1rem;
   font-weight: 400;
   line-height: 1.7;
   color: white;
@@ -31,7 +30,7 @@ body {
 .box {
   background-color: rgba(101, 226, 217, 0);
   font-size: 1.25rem;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: center;
   border-radius: 3px;
   -webkit-box-shadow: 0 0.1rem 0.25rem rgba(255, 255, 255, 0.8);
@@ -189,73 +188,170 @@ body {
 .button {
   position: absolute;
   bottom: 10%;
-  -webkit-transform: translate(12%, -10%);
-          transform: translate(12%, -10%);
+}
+
+footer {
+  background-color: #181f2a;
+  height: 8vh;
+}
+
+footer p {
+  text-align: center;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 100vh !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#181f2a), to(#202a3c));
+    background-image: linear-gradient(to top, #181f2a, #202a3c);
+  }
+  header .heading {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-10%, -80%) !important;
+            transform: translate(-10%, -80%) !important;
+  }
+  header .heading__primary {
+    letter-spacing: .75rem !important;
+    font-weight: 700 !important;
+    font-size: 4.5rem !important;
+  }
+  header .heading__secondary {
+    color: #D3D3DD !important;
+    letter-spacing: .5rem !important;
+  }
+  .section__about {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#202a3c), to(#181f2a));
+    background-image: linear-gradient(to top, #202a3c, #181f2a);
+    padding: 7rem 7rem;
+  }
+  .section__about h2 {
+    text-align: center;
+    font-size: 4rem !important;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    letter-spacing: .5rem;
+    font-weight: 100;
+    margin-bottom: 10rem;
+  }
+  .section__about-skills {
+    position: relative;
+    height: 30rem;
+  }
+  .section__about--resume {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section__about--resume li {
+    padding: 0 2rem;
+  }
+  .section__about--resume li i {
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 1.5rem;
+  }
+  .section__about--resume li figcaption {
+    margin: 0 auto;
+  }
+  .section__project {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#181f2a), to(#202a3c));
+    background-image: linear-gradient(to top, #181f2a, #202a3c);
+    padding: 15rem 7rem;
+  }
+  .section__project h2 {
+    text-align: center;
+    font-size: 4rem !important;
+    letter-spacing: .5rem;
+    font-weight: 100;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+  }
+  .section__contact {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#202a3c), to(#181f2a));
+    background-image: linear-gradient(to top, #202a3c, #181f2a);
+    padding: 6rem 0 0 0;
+  }
+  .section__contact h2 {
+    background-color: #181f2a;
+    text-align: center;
+    font-size: 4rem !important;
+    margin: 0 auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    letter-spacing: .5rem;
+    font-weight: 100;
+    margin-bottom: 5rem;
+  }
+  .section__contact--list {
+    list-style: none;
+    width: 30%;
+    margin: 0 auto;
+  }
+  .section__contact--list li figcaption {
+    font-size: 1.3rem;
+    display: none;
+  }
+  .section__contact--list li i {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
 }
 
 header {
-  height: 100vh;
+  height: 60vh;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#181f2a), to(#202a3c));
   background-image: linear-gradient(to top, #181f2a, #202a3c);
 }
 
 header .heading {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-10%, -80%);
-          transform: translate(-10%, -80%);
+  text-align: center;
+  top: 25%;
+  -webkit-transform: translate(8%, -80%);
+          transform: translate(8%, -80%);
 }
 
 header .heading__primary {
-  letter-spacing: .75rem;
-  font-weight: 700;
-  font-size: 4.5rem;
+  letter-spacing: .3rem;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 
 header .heading__secondary {
   color: #D3D3DD;
-  letter-spacing: .5rem;
-}
-
-footer {
-  background-color: #181f2a;
-  height: 10vh;
-}
-
-footer p {
-  font-size: 2rem;
-  text-align: center;
-  padding: 2rem;
+  font-weight: 300;
+  letter-spacing: .2rem;
 }
 
 .section__about {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#202a3c), to(#181f2a));
   background-image: linear-gradient(to top, #202a3c, #181f2a);
-  padding: 7rem 7rem;
+  padding-bottom: 5rem;
 }
 
 .section__about h2 {
-  text-align: center;
-  font-size: 4.6rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  font-size: 2rem;
+  padding: 3rem;
   margin: 0 auto;
   letter-spacing: .5rem;
   font-weight: 100;
-  margin-bottom: 10rem;
-  border-bottom: 1px dotted #65e2d9;
-}
-
-.section__about-skills {
-  position: relative;
-  height: 30rem;
 }
 
 .section__about--resume {
   list-style: none;
-  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 auto;
 }
 
@@ -264,7 +360,7 @@ footer p {
 }
 
 .section__about--resume li i {
-  font-size: 4rem;
+  font-size: 2rem;
   color: white;
   padding-bottom: 1.5rem;
 }
@@ -276,46 +372,37 @@ footer p {
 .section__project {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#181f2a), to(#202a3c));
   background-image: linear-gradient(to top, #181f2a, #202a3c);
-  padding: 15rem 7rem;
+  padding: 3rem 1rem;
 }
 
 .section__project h2 {
   text-align: center;
-  font-size: 4.6rem;
+  font-size: 2rem;
+  padding: 3rem;
   letter-spacing: .5rem;
   font-weight: 100;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   margin: 0 auto;
-  margin-bottom: 10rem;
-  border-bottom: 1px dotted #65e2d9;
 }
 
 .section__contact {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#202a3c), to(#181f2a));
   background-image: linear-gradient(to top, #202a3c, #181f2a);
-  padding: 6rem 0 0 0;
+  padding: 2rem 3rem;
 }
 
 .section__contact h2 {
   background-color: #181f2a;
   text-align: center;
-  font-size: 4.6rem;
-  margin: 0 auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  border-bottom: 1px dotted #65e2d9;
+  font-size: 2rem;
+  padding: 2rem 0;
   letter-spacing: .5rem;
   font-weight: 100;
-  margin-bottom: 5rem;
 }
 
 .section__contact--list {
   list-style: none;
-  width: 30%;
   margin: 0 auto;
+  padding-left: 0;
 }
 
 .section__contact--list li figcaption {
@@ -324,7 +411,7 @@ footer p {
 }
 
 .section__contact--list li i {
-  font-size: 4rem;
+  font-size: 2rem;
   color: white;
   margin-bottom: 1.5rem;
 }
