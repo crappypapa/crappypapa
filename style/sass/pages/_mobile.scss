@@ -1,5 +1,5 @@
 header {
-  height: 60vh;
+  height: 100vh;
   background-image: linear-gradient(to top, ($bg-main), ($bg-lit));
 
   // url(../assets/img/header.webp);
@@ -9,7 +9,7 @@ header {
   .heading {
     position: absolute;
     text-align: center;
-    top: 25%;
+    top: 50%;
     transform: translate(8%, -80%);
 
     &__primary {

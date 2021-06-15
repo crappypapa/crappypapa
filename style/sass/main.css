@@ -313,7 +313,7 @@ footer p {
 }
 
 header {
-  height: 60vh;
+  height: 100vh;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#181f2a), to(#202a3c));
   background-image: linear-gradient(to top, #181f2a, #202a3c);
 }
@@ -321,7 +321,7 @@ header {
 header .heading {
   position: absolute;
   text-align: center;
-  top: 25%;
+  top: 50%;
   -webkit-transform: translate(8%, -80%);
           transform: translate(8%, -80%);
 }
