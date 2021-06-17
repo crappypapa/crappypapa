@@ -5,3 +5,27 @@
     clear: both;
   }
 }
+
+@mixin blink {
+  @keyframes icon {
+    0% {
+      color: $cyan;
+      transform: translateY(0);
+    }
+
+    25% {
+      color: $white;
+    }
+
+    50% {
+      color: $bg-main
+    }
+
+    100% {
+      color: $white;
+      transform: translateY(2rem);
+    }
+  }
+
+  animation: icon 1s linear infinite normal;
+}

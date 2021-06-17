@@ -102,6 +102,49 @@ body {
   padding: 0 2rem;
 }
 
+.card__side--front .bi-bullseye {
+  -webkit-animation: icon 1s linear infinite normal;
+          animation: icon 1s linear infinite normal;
+}
+
+@-webkit-keyframes icon {
+  0% {
+    color: #65e2d9;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: #181f2a;
+  }
+  100% {
+    color: white;
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+  }
+}
+
+@keyframes icon {
+  0% {
+    color: #65e2d9;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: #181f2a;
+  }
+  100% {
+    color: white;
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+  }
+}
+
 .card__side--details {
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.5)), color-stop(rgba(101, 226, 217, 0.5)), to(#181f2a));
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(101, 226, 217, 0.5), #181f2a);
@@ -349,30 +392,11 @@ header .heading__secondary {
 
 header .heading i {
   font-size: 3rem;
-  -webkit-animation: page-arrow 1s linear infinite normal;
-          animation: page-arrow 1s linear infinite normal;
+  -webkit-animation: icon 1s linear infinite normal;
+          animation: icon 1s linear infinite normal;
 }
 
-@-webkit-keyframes page-arrow {
-  0% {
-    color: #65e2d9;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  25% {
-    color: white;
-  }
-  50% {
-    color: #181f2a;
-  }
-  100% {
-    color: white;
-    -webkit-transform: translateY(2rem);
-            transform: translateY(2rem);
-  }
-}
-
-@keyframes page-arrow {
+@keyframes icon {
   0% {
     color: #65e2d9;
     -webkit-transform: translateY(0);

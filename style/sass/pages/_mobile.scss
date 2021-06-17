@@ -22,28 +22,7 @@ header {
 
     i {
       font-size: 3rem;
-
-      @keyframes page-arrow {
-        0% {
-          color: $cyan;
-          transform: translateY(0);
-        }
-
-        25% {
-          color: $white;
-        }
-
-        50% {
-          color: $bg-main
-        }
-
-        100% {
-          color: $white;
-          transform: translateY(2rem);
-        }
-      }
-
-      animation: page-arrow 1s linear infinite normal;
+      @include blink;
     }
   }
 }
