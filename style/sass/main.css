@@ -338,6 +338,51 @@ header .heading__secondary {
   letter-spacing: .2rem;
 }
 
+header .heading i {
+  font-size: 3rem;
+  position: absolute;
+  -webkit-animation: page-arrow 1s linear infinite normal;
+          animation: page-arrow 1s linear infinite normal;
+}
+
+@-webkit-keyframes page-arrow {
+  0% {
+    color: #65e2d9;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: #181f2a;
+  }
+  100% {
+    color: white;
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+  }
+}
+
+@keyframes page-arrow {
+  0% {
+    color: #65e2d9;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: #181f2a;
+  }
+  100% {
+    color: white;
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+  }
+}
+
 .section__about {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#202a3c), to(#181f2a));
   background-image: linear-gradient(to top, #202a3c, #181f2a);
