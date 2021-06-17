@@ -1,36 +1,43 @@
-
 .btn {
-    &,
-    &:link,
-    &:visited {
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 1rem 4rem;
-        //display: inline-block;
-        border-radius: 1rem;
-        transition: all .4s;
-        margin: 1.5rem;
-        color: rgba($white, .8)
-    }
-    &:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 .1rem .25rem rgba($white, .8);
-    }
-    &:active {
-        transform: translateY(-1px);
-        box-shadow: 0 .1rem .25rem rgba($white, .8);
-        text-decoration: none;
-    
-    }
+
+	&,
+	&:link,
+	&:visited {
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 1rem 4rem;
+		border-radius: 1rem;
+		transition: all .4s;
+		margin: 1.5rem;
+		color: rgba($white, .8)
+	}
+
+	&:hover {
+		transform: translateY(-3px);
+		box-shadow: 0 .1rem .25rem rgba($white, .8);
+	}
+
+	&:active {
+		transform: translateY(-1px);
+		box-shadow: 0 .1rem .25rem rgba($white, .8);
+		text-decoration: none;
+	}
 }
 
 .btn-color {
-    background-image:linear-gradient(to right, rgba($bg-main, .5),rgba($bg-lit, .5));
-    color: $white;
+	background-image: linear-gradient(to right, rgba($bg-main, .5), rgba($bg-lit, .5));
+	color: $white;
 }
-.button{
-    position: absolute;
-    bottom: 10%;
-    transform: translate(-1%, 0);
-  
+
+.button {
+	position: absolute;
+	bottom: 10%;
+	transform: translate(-1%, 0);
+}
+
+.btn-wd {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
 }

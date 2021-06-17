@@ -1,15 +1,16 @@
 .box {
-    background-color: rgba($cyan, 0);
-    font-size: 1.25rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 3px;
-    box-shadow: 0 .1rem .25rem rgba($white, .8);
-    transition: transform .5s;
-    i {
-        display: inline-block;
-        font-size: 4rem;
-        color : $cyan;
-        margin-bottom: 1.5rem;
-    }
+	background-color: rgba($cyan, 0);
+	font-size: 1.25rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: 0 .1rem .25rem rgba($white, .8);
+	transition: transform .5s;
+
+	i {
+		display: inline-block;
+		font-size: 4rem;
+		color: $cyan;
+		margin-bottom: 1.5rem;
+	}
 }

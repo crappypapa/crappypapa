@@ -187,6 +187,14 @@ body {
           transform: translate(-1%, 0);
 }
 
+.btn-wd {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 footer {
   background-color: #181f2a;
   height: 8vh;
@@ -340,7 +348,6 @@ header .heading__secondary {
 
 header .heading i {
   font-size: 3rem;
-  position: absolute;
   -webkit-animation: page-arrow 1s linear infinite normal;
           animation: page-arrow 1s linear infinite normal;
 }
