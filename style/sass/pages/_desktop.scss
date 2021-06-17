@@ -117,7 +117,7 @@
   }
 
   .button {
-    transform: translate(3%, -10%) !important;
+    transform: translate(1%, -10%) !important;
   }
 
   .box {
@@ -126,3 +126,11 @@
     }
   }
 }
+
+// .card {
+//   &__side {
+//     &--img {
+//       bottom: 30%;
+//     }
+//   }
+// }

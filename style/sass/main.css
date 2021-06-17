@@ -83,8 +83,9 @@ body {
 }
 
 .card__side--img {
+  height: 20rem;
   position: absolute;
-  bottom: 40%;
+  bottom: 38%;
   -webkit-transform: translate(-2%);
           transform: translate(-2%);
 }
@@ -347,8 +348,8 @@ footer p {
     margin-bottom: 1.5rem;
   }
   .button {
-    -webkit-transform: translate(3%, -10%) !important;
-            transform: translate(3%, -10%) !important;
+    -webkit-transform: translate(1%, -10%) !important;
+            transform: translate(1%, -10%) !important;
   }
   .box:hover {
     -webkit-transform: translateY(1.5rem) scale(1.05);
