@@ -345,7 +345,8 @@ header .heading__secondary {
 }
 
 .section__about h2 {
-  font-size: 2rem;
+  text-align: center;
+  font-size: 3rem;
   padding: 3rem;
   margin: 0 auto;
   letter-spacing: .5rem;
@@ -382,7 +383,7 @@ header .heading__secondary {
 
 .section__project h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 3rem;
   letter-spacing: .5rem;
   font-weight: 100;
@@ -398,7 +399,7 @@ header .heading__secondary {
 .section__contact h2 {
   background-color: #181f2a;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 2rem 0;
   letter-spacing: .5rem;
   font-weight: 100;
