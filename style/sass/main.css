@@ -103,15 +103,13 @@ body {
 }
 
 .card__side--front .cto {
-  -webkit-animation: icon 1s linear infinite normal;
-          animation: icon 1s linear infinite normal;
+  -webkit-animation: cto 1s linear infinite normal;
+          animation: cto 1s linear infinite normal;
 }
 
-@-webkit-keyframes icon {
+@-webkit-keyframes cto {
   0% {
     color: #65e2d9;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
   }
   25% {
     color: white;
@@ -121,16 +119,12 @@ body {
   }
   100% {
     color: white;
-    -webkit-transform: translateY(2rem);
-            transform: translateY(2rem);
   }
 }
 
-@keyframes icon {
+@keyframes cto {
   0% {
     color: #65e2d9;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
   }
   25% {
     color: white;
@@ -140,8 +134,6 @@ body {
   }
   100% {
     color: white;
-    -webkit-transform: translateY(2rem);
-            transform: translateY(2rem);
   }
 }
 
@@ -399,6 +391,25 @@ header .heading i {
           transform: translateX(-10%);
   -webkit-animation: icon 1s linear infinite normal;
           animation: icon 1s linear infinite normal;
+}
+
+@-webkit-keyframes icon {
+  0% {
+    color: #65e2d9;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: #181f2a;
+  }
+  100% {
+    color: white;
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+  }
 }
 
 @keyframes icon {

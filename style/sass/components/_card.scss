@@ -46,8 +46,7 @@
 			}
 
 			.cto {
-				
-				@include blink;
+				@include tap;
 			}
 
 		}

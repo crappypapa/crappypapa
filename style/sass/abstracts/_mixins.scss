@@ -29,3 +29,26 @@
 
   animation: icon 1s linear infinite normal;
 }
+
+@mixin tap {
+  @keyframes cto {
+    0% {
+      color: $cyan;
+    }
+
+    25% {
+      color: $white;
+    }
+
+    50% {
+      color: $bg-main
+    }
+
+    100% {
+      color: $white;
+     
+    }
+  }
+
+  animation: cto 1s linear infinite normal;
+}
