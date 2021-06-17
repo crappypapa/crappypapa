@@ -25,7 +25,7 @@
 
 		&--img {
 			position: absolute;
-			bottom: 30%;
+			bottom: 40%;
 			transform: translate(-2%);
 		}
 
@@ -45,7 +45,8 @@
 
 			}
 
-			.bi-bullseye {
+			.cto {
+				
 				@include blink;
 			}
 

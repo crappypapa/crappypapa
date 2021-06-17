@@ -84,7 +84,7 @@ body {
 
 .card__side--img {
   position: absolute;
-  bottom: 30%;
+  bottom: 40%;
   -webkit-transform: translate(-2%);
           transform: translate(-2%);
 }
@@ -102,7 +102,7 @@ body {
   padding: 0 2rem;
 }
 
-.card__side--front .bi-bullseye {
+.card__side--front .cto {
   -webkit-animation: icon 1s linear infinite normal;
           animation: icon 1s linear infinite normal;
 }
@@ -392,6 +392,11 @@ header .heading__secondary {
 
 header .heading i {
   font-size: 3rem;
+  position: absolute;
+  top: 85%;
+  left: 44%;
+  -webkit-transform: translateX(-10%);
+          transform: translateX(-10%);
   -webkit-animation: icon 1s linear infinite normal;
           animation: icon 1s linear infinite normal;
 }

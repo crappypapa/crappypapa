@@ -22,6 +22,10 @@ header {
 
     i {
       font-size: 3rem;
+      position: absolute;
+      top: 85%;
+      left: 44%;
+      transform: translateX(-10%);
       @include blink;
     }
   }
