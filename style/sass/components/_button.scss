@@ -5,7 +5,7 @@
 	&:visited {
 		text-transform: uppercase;
 		text-decoration: none;
-		padding: 1rem 4rem;
+		padding: 1rem 2rem;
 		border-radius: 1rem;
 		transition: all .4s;
 		margin: 1.5rem;
@@ -32,7 +32,7 @@
 .button {
 	position: absolute;
 	bottom: 10%;
-	transform: translate(-1%, 0);
+	transform: translate(30%, 0);
 }
 
 .btn-wd {

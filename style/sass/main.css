@@ -188,7 +188,7 @@ body {
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
   border-radius: 1rem;
   -webkit-transition: all .4s;
   transition: all .4s;
@@ -220,9 +220,8 @@ body {
 .button {
   position: absolute;
   bottom: 10%;
-  left: 10%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -webkit-transform: translate(30%, 0);
+          transform: translate(30%, 0);
 }
 
 .btn-wd {
@@ -349,8 +348,8 @@ footer p {
     margin-bottom: 1.5rem;
   }
   .button {
-    -webkit-transform: translate(1%, -10%) !important;
-            transform: translate(1%, -10%) !important;
+    -webkit-transform: translate(35%, -10%) !important;
+            transform: translate(35%, -10%) !important;
   }
   .box:hover {
     -webkit-transform: translateY(1.5rem) scale(1.05);
