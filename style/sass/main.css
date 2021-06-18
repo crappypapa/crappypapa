@@ -232,6 +232,11 @@ body {
           transform: translateX(-50%);
 }
 
+.btn-wd a {
+  padding: 1.5rem;
+  width: 10rem;
+}
+
 footer {
   background-color: #181f2a;
   height: 8vh;
