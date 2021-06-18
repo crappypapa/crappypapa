@@ -44,6 +44,15 @@ header {
     font-weight: 100;
   }
 
+  &--text {
+    padding: 1rem;
+      p {
+        font-size: 1.2rem;
+        text-align: justify;
+       
+      }
+  }
+
   &--resume {
     list-style: none;
     justify-content: center;

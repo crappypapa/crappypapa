@@ -452,6 +452,15 @@ header .heading i {
   font-weight: 100;
 }
 
+.section__about--text {
+  padding: 1rem;
+}
+
+.section__about--text p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
 .section__about--resume {
   list-style: none;
   -webkit-box-pack: center;
