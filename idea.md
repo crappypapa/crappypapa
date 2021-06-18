@@ -8,3 +8,5 @@ Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
 Light Red (error): hsl(0, 100%, 63%)
 Neutral
 White: hsl(0, 0%, 100%
+
+
